@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-dpcn
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-4/partner-catalog-dpcn@sha256:fa368f1403e4d80039172ea910101d9d509acc0932ac9158a33a900c0ea1b072
         name: my-java-springboot
         ports:
         - containerPort: 8081
