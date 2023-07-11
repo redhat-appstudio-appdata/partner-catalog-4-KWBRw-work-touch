@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: partner-catalog-dpcn
     app.kubernetes.io/part-of: partner-catalog-4
-  name: partner-catalog-dpcncimq
+  name: partner-catalog-dpcna5fw
 spec:
   path: /
   port:
