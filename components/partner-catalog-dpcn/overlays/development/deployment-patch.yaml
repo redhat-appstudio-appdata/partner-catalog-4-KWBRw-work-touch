@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-dpcn
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-4/partner-catalog-dpcn@sha256:fa368f1403e4d80039172ea910101d9d509acc0932ac9158a33a900c0ea1b072
+        name: my-java-springboot
+        resources: {}
+status: {}
